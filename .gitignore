@@ -1,0 +1,13 @@
+
+./.git/hooks/commit-msg.sample
+./.git/hooks/pre-commit.sample
+./.git/hooks/update.sample
+./.git/hooks/pre-rebase.sample
+./.git/hooks/applypatch-msg.sample
+./.git/hooks/pre-applypatch.sample
+./.git/hooks/post-update.sample
+./.git/hooks/prepare-commit-msg.sample
+./1th_oop/person6
+./1th_oop/person5
+./1th_oop/person3
+./1th_oop/person4
