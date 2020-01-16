@@ -14,7 +14,7 @@ int add_one(int *a)
 	return *a;
 }
 
-int add_one(int &b)
+int add_one_ref(int &b)
 {
 	b = b+1;
 	return b;
@@ -31,7 +31,7 @@ int main(int argc, char**argv)
 	cout<<add_one(&a)<<endl;
 	cout<<"a = "<<a<<endl;
 
-	cout<<add_one(a)<<endl;
+	cout<<add_one_ref(a)<<endl;
 	cout<<"a = "<<a<<endl;
 
 	return 0;

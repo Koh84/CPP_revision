@@ -24,6 +24,7 @@ int main(int argc, char**argv)
 {
 
 	int a = 99;
+	int &c = a;
 
 	cout<<add_one(a)<<endl;
 	cout<<"a = "<<a<<endl;
@@ -33,6 +34,10 @@ int main(int argc, char**argv)
 
 	cout<<add_one_ref(a)<<endl;
 	cout<<"a = "<<a<<endl;
+
+	c++;
+	cout<<"a = "<<a<<endl;
+	cout<<"c = "<<c<<endl;
 
 	return 0;
 }
