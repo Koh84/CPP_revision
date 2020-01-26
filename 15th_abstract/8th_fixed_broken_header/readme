@@ -1,0 +1,3 @@
+./Human: error while loading shared libraries: libHuman.so: cannot open shared object file: No such file or directory
+book@book-virtual-machine:/work/200115_CPP/15th_abstract/6th$ LD_LIBRARY_PATH=./ ./Human
+
