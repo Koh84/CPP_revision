@@ -1,3 +1,13 @@
 ./Human: error while loading shared libraries: libHuman.so: cannot open shared object file: No such file or directory
 book@book-virtual-machine:/work/200115_CPP/15th_abstract/6th$ LD_LIBRARY_PATH=./ ./Human
 
+
+book@book-virtual-machine:/work/200115_CPP/15th_abstract/6th_makfile_seperate_main_class$ ldd Human
+	linux-vdso.so.1 =>  (0x00007fff704ff000)
+	libHuman.so => not found
+	libstdc++.so.6 => /usr/lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f6ad253e000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f6ad2327000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f6ad1f69000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f6ad1c6d000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f6ad2859000)
+
